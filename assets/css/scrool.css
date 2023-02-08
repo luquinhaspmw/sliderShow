@@ -1,0 +1,14 @@
+.containerSlideShow .slideshow .listSlides .cardSlide .description{
+    overflow: auto;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .description::-webkit-scrollbar{
+    width: 10px;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .description::-webkit-scrollbar-track{
+    background-color: rgb(97, 97, 97);
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .description::-webkit-scrollbar-thumb{
+    background-color: rgb(41, 41, 41);
+    border-radius: 20px;     
+    border: none;
+}
