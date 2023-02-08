@@ -31,6 +31,41 @@
     width: 46.875%;
     height: 100%;
 }
+.containerSlideShow.active-grid .slideshow .listSlides .cardSlide .containerImageSlide .grid{
+    display: grid;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .containerImageSlide .grid{
+    width: var(--screenActive);
+    height: 100%;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .containerImageSlide img{
+    width: 100%;
+    height: 100%;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .containerImageSlide .one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .containerImageSlide .two{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.containerSlideShow .slideshow .listSlides .cardSlide .containerImageSlide .tree{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.containerSlideShow.active-grid .slideshow .listSlides .cardSlide .containerImageSlide .image{
+    display: none;
+}
 .containerSlideShow .slideshow .listSlides .cardSlide .containerImageSlide .image{
     width: 100%;
     height: 100%;
@@ -129,7 +164,7 @@
     }
     .containerSlideShow .slideshow .listSlides .cardSlide .description::-webkit-scrollbar-thumb{
         background-color: rgb(41, 41, 41);
-        border-radius: 20px;     
+        border-radius: 20px; 
         border: none;
     }
 }
