@@ -138,7 +138,7 @@
     }
 }
 
-@media (max-width: 900px) and (min-width:801px){
+/* @media (max-width: 900px) and (min-width:801px){
     .containerSlideShow{
         height: 100%;
         font-size: 0.8em;
@@ -167,7 +167,7 @@
         border-radius: 20px; 
         border: none;
     }
-}
+} */
 
 @media (max-width: 800px) and (min-width:280px){
     .containerSlideShow{
