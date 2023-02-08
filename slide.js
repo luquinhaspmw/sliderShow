@@ -1,5 +1,6 @@
 const slideshow = document.getElementById("containerSlideShow");
 const listaSlideShow = document.getElementById("listSlides");
+const teste = document.getElementById("teste");
 
 slideshow.addEventListener("mouseover",()=>{
     listaSlideShow.style.animationPlayState = "paused";
@@ -22,5 +23,6 @@ setInterval(()=>{
     // }
     let px = window.innerWidth+"px";
     document.documentElement.style.setProperty("--screenActive", px)
+    teste.innerText = px;
 },1)
 
