@@ -4,5 +4,5 @@
     --screenWidthDefault: 1280px;
     --screenHeightDefault: 900px;
 
-    --screenActive: var(--screenWidthDefault);
+    --screenActive: 0px;
 }
