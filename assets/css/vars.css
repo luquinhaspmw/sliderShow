@@ -1,35 +1,8 @@
 @charset "utf-8";
 
 :root{
-    --screenWidthPc1: 1440px;
-    --screenHeightPc1:900px;
+    --screenWidthDefault: 1280px;
+    --screenHeightDefault: 900px;
 
-    --screenWidthPc2: 1280px;
-    --screenHeightPc2: 900px;
-
-    --screenWidthIpadPro12:1024px;
-    --screenHeightIpadPro12:900px;
-
-    --screenWidthIpadPro10:834px;
-    --screenHeightIpadPro10:1112px;
-
-    --screenWidthIpadMini:768px;
-    --screenHeightIpadMini:1024px;
-    
-    --screenWidthNexus:600px;
-    --screenHeightNexus:960px;
-
-    --screenWidthXiaomi:500px;
-    --screenHeightXiaomi:723px;
-
-    --screenWidthIphoneXsMax:414px;
-    --screenHeightIphoneXsMax:896px;
-
-    --screenWidthNote8:360px;
-    --screenHeightNote8:740px;
-
-    --screenWidthNokia:240px;
-    --screenHeightNokia:320px;
-
-    --screenActive: 0px;
+    --screenActive: var(--screenWidthDefault);
 }

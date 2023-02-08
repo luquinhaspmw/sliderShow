@@ -7,3 +7,9 @@ slideshow.addEventListener("mouseover",()=>{
 slideshow.addEventListener("mouseout",()=>{
     listaSlideShow.style.animationPlayState = "running";
 })
+
+document.body.onresize = ()=>{
+    let px = window.innerWidth+"px";
+    document.documentElement.style.setProperty("--screenActive", px)
+    console.log(px)
+}
