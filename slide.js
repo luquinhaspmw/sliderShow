@@ -8,10 +8,11 @@ slideshow.addEventListener("mouseout",()=>{
     listaSlideShow.style.animationPlayState = "running";
 })
 
-
+let px = window.innerWidth+"px";
+document.documentElement.style.setProperty("--screenActive", px)
 setInterval(()=>{
     document.body.onresize = ()=>{
-        let px = window.innerWidth+"px";
+        px = window.innerWidth+"px";
         document.documentElement.style.setProperty("--screenActive", px)
     
         if(window.innerWidth > 700 && window.innerWidth < 900){

@@ -138,7 +138,7 @@
     }
 }
 
-@media (max-width: 900px) and (min-width:701px){
+@media (max-width: 900px) and (min-width:501px){
     .containerSlideShow{
         height: 100%;
         font-size: 0.8em;
@@ -169,7 +169,7 @@
     }
 }
 
-@media (max-width: 700px) and (min-width:0px){
+@media (max-width: 500px) and (min-width:0px){
     .containerSlideShow{
         height: 100%;
         font-size: 0.8em;
