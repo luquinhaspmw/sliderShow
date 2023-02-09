@@ -1,14 +1,14 @@
 const slideshow = document.getElementById("containerSlideShow");
 const listaSlideShow = document.getElementById("listSlides");
 
-listaSlideShow.style.animationPlayState = "running";
+
 slideshow.addEventListener("mousedown",()=>{
     listaSlideShow.style.animationPlayState = "paused";
 })
 slideshow.addEventListener("mouseup",()=>{
     listaSlideShow.style.animationPlayState = "running";
 })
-
+listaSlideShow.style.animationPlayState = "running";
 setInterval(()=>{
     document.body.onresize = ()=>{
         let px = window.innerWidth+"px";
