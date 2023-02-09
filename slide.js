@@ -1,13 +1,19 @@
 const slideshow = document.getElementById("containerSlideShow");
 const listaSlideShow = document.getElementById("listSlides");
 
-slideshow.addEventListener("mouseover",()=>{
+// slideshow.addEventListener("mouseover",()=>{
+//     listaSlideShow.style.animationPlayState = "paused";
+// })
+// slideshow.addEventListener("mouseout",()=>{
+//     listaSlideShow.style.animationPlayState = "running";
+// })
+
+slideshow.addEventListener("mousedown",()=>{
     listaSlideShow.style.animationPlayState = "paused";
 })
-slideshow.addEventListener("mouseout",()=>{
+slideshow.addEventListener("mouseup",()=>{
     listaSlideShow.style.animationPlayState = "running";
 })
-
 
 setInterval(()=>{
     document.body.onresize = ()=>{
