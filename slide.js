@@ -1,13 +1,7 @@
 const slideshow = document.getElementById("containerSlideShow");
 const listaSlideShow = document.getElementById("listSlides");
 
-// slideshow.addEventListener("mouseover",()=>{
-//     listaSlideShow.style.animationPlayState = "paused";
-// })
-// slideshow.addEventListener("mouseout",()=>{
-//     listaSlideShow.style.animationPlayState = "running";
-// })
-
+listaSlideShow.style.animationPlayState = "running";
 slideshow.addEventListener("mousedown",()=>{
     listaSlideShow.style.animationPlayState = "paused";
 })
@@ -29,4 +23,3 @@ setInterval(()=>{
     let px = window.innerWidth+"px";
     document.documentElement.style.setProperty("--screenActive", px)
 },1)
-
