@@ -8,7 +8,7 @@ slideshow.addEventListener("mousedown",()=>{
 slideshow.addEventListener("mouseup",()=>{
     listaSlideShow.style.animationPlayState = "running";
 })
-listaSlideShow.style.animationPlayState = "running";
+window.onload = listaSlideShow.style.animationPlayState = "running";
 setInterval(()=>{
     document.body.onresize = ()=>{
         let px = window.innerWidth+"px";
